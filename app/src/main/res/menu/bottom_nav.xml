@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/home"
+            android:icon="@drawable/home_icon"
+            android:title="home"
+            android:iconTint="@color/colorOnSecondary"/>
+        <item
+            android:id="@+id/search"
+            android:icon="@drawable/search_icon"
+            android:title="search"
+            android:iconTint="@color/colorOnSecondary"
+            />
+
+        <item
+            android:id="@+id/fav"
+            android:icon="@drawable/favorite_icon"
+            android:title="Favorite"
+            android:iconTint="@color/colorOnSecondary"/>
+        <item
+            android:id="@+id/UserSettings"
+            android:icon="@drawable/person_icon"
+            android:title="profile"
+            android:iconTint="@color/colorOnSecondary"/>
+    </group>
+
+
+</menu>
